@@ -57,6 +57,9 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
 BOARD_HARDWARE_CLASS += device/samsung/hlte-common/cmhw
 
+# Ril
+BOARD_RIL_CLASS := ../../../device/samsung/hlte-common/ril
+
 # Graphics
 TARGET_HAVE_NEW_GRALLOC := true
 BOARD_USES_LEGACY_MMAP := true
