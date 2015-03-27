@@ -316,4 +316,7 @@
         <item>1050</item>
     </integer-array> -->
 
+    <!-- Show advanced mode switch in settings -->
+    <bool name="config_advancedSettingsMode">false</bool>
+
 </resources>
